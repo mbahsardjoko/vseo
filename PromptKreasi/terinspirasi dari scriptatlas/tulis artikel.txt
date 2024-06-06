@@ -1,0 +1,40 @@
+Tujuan: Bertindaklah sebagai seorang ahli SEO yang berpengalaman selama 10 tahun dan sangat suka menulis artikel kritis dan mendalam serta tajam dan terpercaya yang membuat pembaca selalu menantikan tulisan-tulisannya. Saya ingin anda membuat artikel mengenai [[KEYWORD_LIST1]] dalam bahasa {{Bahasa}} dengan ketentuan sebagai berikut.
+Proses Pembuatan Artikel dengan panjang {{Jumlah Kata}} kata:
+1.	Pemilihan Kata Kunci: (proses ini tidak perlu disebutkan pada jawaban)
+•	Identifikasi 5 kata kunci dari niche yang diberikan.
+•	Pilih salah satu kata kunci secara acak (tidak perlu disebutkan dalam jawaban).
+2. Sebutkan apa saja hal yang berkaitan dengan niche/kata kunci tersebut, dan masukkan pembahasan dalam artikel (tidak perlu disebutkan dalam jawaban).
+3.	Pembuatan Judul: (proses ini tidak perlu disebutkan pada jawaban)
+•	Buat 5 judul artikel berdasarkan kata kunci yang dipilih.
+•	Pilih salah satu judul secara acak (tidak perlu disebutkan dalam jawaban).
+4.	Pembuatan Outline: (proses ini tidak perlu disebutkan pada jawaban)
+•	Buat 3 variasi outline untuk judul yang dipilih, dengan setiap outline mengandung 5 paragraf dan setiap paragraf minimal 250 kata.
+•	Pilih salah satu outline secara acak (tidak perlu disebutkan dalam jawaban).
+
+5.	Penulisan Artikel: (tidak perlu disebutkan jika belum mencapai 1000 kata)
+Berikan tambahan nilai atau perspektif baru dan ubah menjadi
+ harus unik diatas 80%
+•	Tulis artikel detil, rinci, dan mendalam tentang hal tersebut, berikan juga nilai atau perspektif baru dan hasilkan artikel yang unik diatas 80% (sesuai outline) dalam bahasa Indonesia, artikel harus mendalam dan informatif, menjawab pertanyaan umum seputarnya. Saya ingin artikel ini terstruktur dengan subheading yang jelas, menggunakan bahasa yang menarik dan naratif inspiratif. Artikel harus memiliki panjang minimal {{Jumlah Kata}} kata, jika kurang dari itu bisa tambahkan lebih banyak detail sampai artikel mencapai {{Jumlah Kata}} kata. Sertakan pula SEO elements seperti focus keyword pada subheading, meta deskripsi, dan internal link yang relevan. Artikel ini ditujukan untuk pembaca blog yang berfokus pada tema edukasi teknologi dan keamanan internet. Untuk menciptakan artikel dengan panjang minimal 1000 kata secara efektif, pertama-tama definisikan dengan jelas topik dan ruang lingkupnya. Sertakan data dan statistik relevan untuk memperkuat argumen dan menambah kedalaman informasi. Gunakan kutipan dari sumber yang terpercaya untuk meningkatkan kredibilitas dan kekayaan konten. Integrasikan studi kasus atau contoh nyata yang membantu pembaca memahami aplikasi praktis dari informasi yang disajikan. Tambahkan sebuah bagian FAQ untuk menjawab pertanyaan umum yang berhubungan dengan topik, dan lakukan analisis mendalam pada setiap subtopik yang dibahas. Berikan rekomendasi atau tips praktis yang relevan dengan topik untuk memberikan nilai tambah kepada pembaca. Akhiri dengan kesimpulan yang merangkum semua poin penting dan menawarkan refleksi atau pandangan ke depan yang memicu pembaca untuk berpikir lebih jauh. Dengan pendekatan ini, Anda dapat memastikan bahwa artikel Anda tidak hanya memenuhi syarat panjang tetapi juga informatif dan menarik untuk dibaca. tambahkan informasi yang dibutuhkan jika belum mencapai {{Jumlah Kata}} kata lebih
+5. Ulangi proses jika panjang artikel belum mencapai 1000 kata, salah satunya dengan cara memperdalam pembahasan tentang judul tersebut. Jika tidak mencapai {{Jumlah Kata}} kata, tambahkan informasi yang diperlukan tanpa memerlukan konfirmasi dari saya sebagai pengguna.
+
+Kriteria dan Aturan Penulisan:
+1. Lanjutkan secara otomatis jika proses pembuatan artikel terhenti.
+2. Jangan menyebutkan kata kunci atau proses pemilihan secara acak dalam jawaban.
+3. Artikel harus dituliskan dalam format yang memudahkan copy paste.
+4. Gunakan subheading (H2, H3, H4, dst) dan sisipkan focus keyword pada subheading.
+5. Pada akhir artikel, tuliskan informasi berikut:
+•	Kata kunci yang digunakan (focus keyword).
+•	Judul artikel.
+•	Meta deskripsi.
+•	Kategori yang cocok dengan artikel.
+•	Berapa jumlah kata dari artikel yang dihasilkan.
+6. Sertakan internal link pada artikel.
+7.	 Pastikan artikel memiliki panjang antara {{Jumlah Kata}} hingga 2000 kata.
+8. Gunakan bahasa yang mengalir dan menarik.
+9. Artikel ditujukan untuk pembaca blog bertema edukasi.
+10. Gunakan gaya bahasa author Raditya Dika.
+11. Gunakan kedalaman artikel standar (standard expedition level 2).
+
+Article Length : {{Jumlah Kata}}
+Write In {{Bahasa}} language
+Event Details & Sources: [[KEYWORD_LIST1]]

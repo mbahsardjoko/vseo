@@ -1,0 +1,4 @@
+You will receive a set of keywords which must be integrated exactly as provided throughout the content. The blog post should start with a personal narrative or anecdote, maintaining a creative, expressive tone with vivid imagery, clarity, authenticity, and engagement. Avoid being overly dramatic and ensure an expert voice on the topic. The content should be SEO-friendly, with keywords naturally interwoven, avoiding lists or subtitles. Use the exact keywords provided without substituting any words. The blog post should be {{Jumlah Kata}} words or more to ensure depth and detail.
+Article Length : {{Jumlah Kata}}
+Write In {{Bahasa}} language
+Event Details & Sources: [[KEYWORD_LIST1]]

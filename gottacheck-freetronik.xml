@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BrowserAutomationStudioProject>
+     <Script><![CDATA[]]></Script>
+     <ModuleInfo><![CDATA[]]></ModuleInfo>
+     <Modules/>
+     <EmbeddedData><![CDATA[]]></EmbeddedData>
+     <DatabaseId></DatabaseId>
+     <Schema></Schema>
+     <ConnectionIsRemote>false</ConnectionIsRemote>
+     <ConnectionServer></ConnectionServer>
+     <ConnectionPort></ConnectionPort>
+     <ConnectionLogin></ConnectionLogin>
+     <ConnectionPassword></ConnectionPassword>
+     <ScriptName></ScriptName>
+     <ProtectionStrength>4</ProtectionStrength>
+     <UnusedModules></UnusedModules>
+     <ScriptIcon></ScriptIcon>
+     <IsCustomIcon>false</IsCustomIcon>
+     <HideBrowsers>false</HideBrowsers>
+     <IntegrateScheduler>false</IntegrateScheduler>
+     <SingleInstance>false</SingleInstance>
+     <CopySilent>false</CopySilent>
+     <IsEnginesInAppData>false</IsEnginesInAppData>
+     <CompileType>NoProtection</CompileType>
+     <ScriptVersion></ScriptVersion>
+     <AvailableLanguages></AvailableLanguages>
+     <OutputTitle1/>
+     <OutputTitle2/>
+     <OutputTitle3/>
+     <OutputTitle4/>
+     <OutputTitle5/>
+     <OutputTitle6/>
+     <OutputTitle7/>
+     <OutputTitle8/>
+     <OutputTitle9/>
+     <OutputVisible1>0</OutputVisible1>
+     <OutputVisible2>0</OutputVisible2>
+     <OutputVisible3>0</OutputVisible3>
+     <OutputVisible4>0</OutputVisible4>
+     <OutputVisible5>0</OutputVisible5>
+     <OutputVisible6>0</OutputVisible6>
+     <OutputVisible7>0</OutputVisible7>
+     <OutputVisible8>0</OutputVisible8>
+     <OutputVisible9>126</OutputVisible9>
+     <ModelList>
+          <Model>
+               <Name>Blogger Url</Name>
+               <Description ru="Blogger Url" en="Blogger Url"/>
+               <SectionName ru="" en="Blogger Setting"/>
+               <VisibilityConditionValue>Blogger</VisibilityConditionValue>
+               <VisibilityConditionVariable>Task</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value>https://www.blogger.com/blog/posts/5889933527088574086</Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Category Blogger</Name>
+               <Description ru="Category Blogger" en="Category Blogger"/>
+               <SectionName ru="" en="Blogger Setting"/>
+               <VisibilityConditionValue>Blogger</VisibilityConditionValue>
+               <VisibilityConditionVariable>Task</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value>Wisata</Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Blogger Cookies FIle</Name>
+               <Description ru="Blogger Cookies FIle" en="Blogger Cookies FIle"/>
+               <SectionName ru="" en="Login"/>
+               <VisibilityConditionValue>Blogger</VisibilityConditionValue>
+               <VisibilityConditionVariable>Task</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value>D:\Program File (homemade)\dataVSEO\cookiesbloggergottacheck.txt</Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>ChatGPT Cookies File</Name>
+               <Description ru="ChatGPT Cookies File" en="ChatGPT Cookies File"/>
+               <SectionName ru="" en="Login"/>
+               <VisibilityConditionValue>Multi Account</VisibilityConditionValue>
+               <VisibilityConditionVariable>Multi Account</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value>D:\Program File (homemade)\dataVSEO\cookieschatgptsendiri.txt</Value>
+               <NotEmpty>0</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Bahasa</Name>
+               <Description ru="Bahasa" en="Language"/>
+               <SectionName ru="" en="General Setting"/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Indonesia
+Inggris
+Jepang
+Jerman
+Prancis
+Cina
+Rusia
+Korea
+Melayu
+Jawa
+Sunda</Values>
+               <Selected>0</Selected>
+               <SelectType>0</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Keyword List</Name>
+               <Description ru="Keyword List" en="Keyword List/Title"/>
+               <SectionName ru="" en="General Setting"/>
+               <VisibilityConditionValue>Create Bulk Article</VisibilityConditionValue>
+               <VisibilityConditionVariable>Task</VisibilityConditionVariable>
+               <Type>LinesFromFile</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>LinesFromFile</AllowedTypes>
+               <Filename>D:/Program File (homemade)/dataVSEO/keywords.txt</Filename>
+               <Clean>0</Clean>
+               <Read>1</Read>
+               <Mix>0</Mix>
+               <MaxSuccess>1</MaxSuccess>
+               <MaxFail>1</MaxFail>
+               <MaxSimultaneous>1</MaxSimultaneous>
+               <Interval>5000</Interval>
+               <ReloadInterval>0</ReloadInterval>
+               <RenewInterval>-1</RenewInterval>
+               <Greedy>0</Greedy>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Source</Name>
+               <Description ru="Source" en="Source"/>
+               <SectionName ru="" en="General Setting"/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>ChatGPT</Values>
+               <Selected>0</Selected>
+               <SelectType>0</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Video</Name>
+               <Description ru="Video" en="Video"/>
+               <SectionName ru="" en="General Setting"/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Youtube Video</Values>
+               <Selected></Selected>
+               <SelectType>2</SelectType>
+          </Model>
+          <Defaults/>
+     </ModelList>
+</BrowserAutomationStudioProject>

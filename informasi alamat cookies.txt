@@ -1,0 +1,6 @@
+blogger URL -		https://www.blogger.com/blog/posts/5889933527088574086
+blogger cookies - 	D:\Program File (homemade)\dataVSEO\cookiesbloggergottacheck.txt
+gemini cookies - 	D:\Program File (homemade)\dataVSEO\CookiesGemini
+bingchat cookies - 	D:\Program File (homemade)\dataVSEO\CookiesBingChat
+claude cookies - 	D:\Program File (homemade)\dataVSEO\CookiesClaude
+perplexity -		D:\Program File (homemade)\dataVSEO\CookiesPerplexity
