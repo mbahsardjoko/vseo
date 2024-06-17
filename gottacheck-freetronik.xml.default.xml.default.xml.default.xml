@@ -1,0 +1,1632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BrowserAutomationStudioProject>
+     <Script><![CDATA[]]></Script>
+     <ModuleInfo><![CDATA[]]></ModuleInfo>
+     <Modules/>
+     <EmbeddedData><![CDATA[]]></EmbeddedData>
+     <DatabaseId></DatabaseId>
+     <Schema></Schema>
+     <ConnectionIsRemote>false</ConnectionIsRemote>
+     <ConnectionServer></ConnectionServer>
+     <ConnectionPort></ConnectionPort>
+     <ConnectionLogin></ConnectionLogin>
+     <ConnectionPassword></ConnectionPassword>
+     <ScriptName></ScriptName>
+     <ProtectionStrength>4</ProtectionStrength>
+     <UnusedModules></UnusedModules>
+     <ScriptIcon></ScriptIcon>
+     <IsCustomIcon>false</IsCustomIcon>
+     <HideBrowsers>false</HideBrowsers>
+     <IntegrateScheduler>false</IntegrateScheduler>
+     <SingleInstance>false</SingleInstance>
+     <CopySilent>false</CopySilent>
+     <IsEnginesInAppData>false</IsEnginesInAppData>
+     <CompileType>NoProtection</CompileType>
+     <ScriptVersion></ScriptVersion>
+     <AvailableLanguages></AvailableLanguages>
+     <OutputTitle1/>
+     <OutputTitle2/>
+     <OutputTitle3/>
+     <OutputTitle4/>
+     <OutputTitle5/>
+     <OutputTitle6/>
+     <OutputTitle7/>
+     <OutputTitle8/>
+     <OutputTitle9/>
+     <OutputVisible1>177</OutputVisible1>
+     <OutputVisible2>71</OutputVisible2>
+     <OutputVisible3>223</OutputVisible3>
+     <OutputVisible4>127</OutputVisible4>
+     <OutputVisible5>254</OutputVisible5>
+     <OutputVisible6>127</OutputVisible6>
+     <OutputVisible7>0</OutputVisible7>
+     <OutputVisible8>0</OutputVisible8>
+     <OutputVisible9>0</OutputVisible9>
+     <ModelList>
+          <Model>
+               <Name>Task</Name>
+               <Description en="Task" ru="Task"/>
+               <SectionName en="General Setting" ru=""/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Keyword Generator
+AutoBlog Wordpress
+AutoBlog Blogger
+AutoBlog ExBlog
+Submit Url To Social Media</Values>
+               <Selected>0</Selected>
+               <SelectType>0</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Keyword  Generator List</Name>
+               <Description en="Keyword  Generator List" ru="Keyword  Generator List"/>
+               <SectionName en="General Setting" ru=""/>
+               <VisibilityConditionValue>Keyword Generator</VisibilityConditionValue>
+               <VisibilityConditionVariable>Task</VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Single
+Multiple</Values>
+               <Selected>0</Selected>
+               <SelectType>0</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Multiple Keyword List File</Name>
+               <Description en="Multiple Keyword List File" ru="Multiple Keyword List File"/>
+               <SectionName en="General Setting" ru=""/>
+               <VisibilityConditionValue>Multiple</VisibilityConditionValue>
+               <VisibilityConditionVariable>Keyword  Generator List</VisibilityConditionVariable>
+               <Type>LinesFromFile</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>LinesFromFile</AllowedTypes>
+               <Filename></Filename>
+               <Clean>0</Clean>
+               <Read>1</Read>
+               <Mix>0</Mix>
+               <MaxSuccess>1</MaxSuccess>
+               <MaxFail>1</MaxFail>
+               <MaxSimultaneous>1</MaxSimultaneous>
+               <Interval>5000</Interval>
+               <ReloadInterval>0</ReloadInterval>
+               <RenewInterval>-1</RenewInterval>
+               <Greedy>0</Greedy>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Source</Name>
+               <Description en="Source" ru="Source"/>
+               <SectionName en="General Setting" ru=""/>
+               <VisibilityConditionValue>Auto</VisibilityConditionValue>
+               <VisibilityConditionVariable>Task</VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>ChatGPT
+Gemini
+Bing Chat
+Claude
+Mistral
+Perplexity
+Perplexity To ChatGPT
+Perplexity To Gemini
+Perplexity To Mistral
+Bing Chat To ChatGPT
+Bing Chat To Gemini
+Bing Chat To Mistral</Values>
+               <Selected>0</Selected>
+               <SelectType>0</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Perplexity</Name>
+               <Description en="Perplexity Setting" ru="Perplexity"/>
+               <SectionName en="General Setting" ru=""/>
+               <VisibilityConditionValue>Perplexity</VisibilityConditionValue>
+               <VisibilityConditionVariable>Source</VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>All
+Writing
+Academic</Values>
+               <Selected>0</Selected>
+               <SelectType>0</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Perplexity Version</Name>
+               <Description en="Perplexity Version" ru="Perplexity Version"/>
+               <SectionName en="General Setting" ru=""/>
+               <VisibilityConditionValue>Perplexity</VisibilityConditionValue>
+               <VisibilityConditionVariable>Source</VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Free
+Pro</Values>
+               <Selected>0</Selected>
+               <SelectType>0</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>ChatGPT Ver</Name>
+               <Description en="ChatGPT Ver" ru="ChatGPT Ver"/>
+               <SectionName en="General Setting" ru=""/>
+               <VisibilityConditionValue>ChatGPT</VisibilityConditionValue>
+               <VisibilityConditionVariable>Source</VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>ChatGPT 3.5
+ChatGPT 4
+ChatGPT 4o</Values>
+               <Selected>0</Selected>
+               <SelectType>0</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Claude Ver</Name>
+               <Description en="Claude Ver" ru="Claude Ver"/>
+               <SectionName en="General Setting" ru=""/>
+               <VisibilityConditionValue>Claude</VisibilityConditionValue>
+               <VisibilityConditionVariable>Source</VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Free
+Claude 3 Haiku
+Claude 3 Sonnet
+Claude 3 Opus</Values>
+               <Selected>0</Selected>
+               <SelectType>0</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Gemini Ver</Name>
+               <Description en="Gemini Ver" ru="Gemini Ver"/>
+               <SectionName en="General Setting" ru=""/>
+               <VisibilityConditionValue>Gemini</VisibilityConditionValue>
+               <VisibilityConditionVariable>Source</VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Free
+Advance</Values>
+               <Selected>0</Selected>
+               <SelectType>0</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Multithread</Name>
+               <Description en="Multithread" ru="Multithread"/>
+               <SectionName en="General Setting" ru=""/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>FixedInteger</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedInteger</AllowedTypes>
+               <Value>1</Value>
+               <MinValue>1</MinValue>
+               <MaxValue>10</MaxValue>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Schedule Post</Name>
+               <Description en="Schedule Post" ru="Schedule Post"/>
+               <SectionName en="General Setting" ru=""/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Schedule
+Publish Now</Values>
+               <Selected>1</Selected>
+               <SelectType>0</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Image Source</Name>
+               <Description en="Image Source" ru="Image Source"/>
+               <SectionName en="General Setting" ru=""/>
+               <VisibilityConditionValue>Auto,Social</VisibilityConditionValue>
+               <VisibilityConditionVariable>Task</VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Bing Image
+Bing AI Image Creator
+Datafeed</Values>
+               <Selected>0</Selected>
+               <SelectType>0</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Image Setting</Name>
+               <Description en="Image Setting" ru="Image Setting"/>
+               <SectionName en="General Setting" ru=""/>
+               <VisibilityConditionValue>Wordpress,Blogger</VisibilityConditionValue>
+               <VisibilityConditionVariable>Task</VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Hotlink Image
+Upload Blog Hosting</Values>
+               <Selected>0</Selected>
+               <SelectType>0</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Image Folder Setting</Name>
+               <Description en="Image Folder Setting" ru="Image Folder Setting"/>
+               <SectionName en="General Setting" ru=""/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Include Video</Name>
+               <Description en="Include Video" ru="Include Video"/>
+               <SectionName en="General Setting" ru=""/>
+               <VisibilityConditionValue>Auto</VisibilityConditionValue>
+               <VisibilityConditionVariable>Task</VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Youtube</Values>
+               <Selected></Selected>
+               <SelectType>2</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Category Source</Name>
+               <Description en=" Category Source" ru="Blogger Category Source"/>
+               <SectionName en="General Setting" ru=""/>
+               <VisibilityConditionValue>Auto</VisibilityConditionValue>
+               <VisibilityConditionVariable>Task</VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Manual
+Automatic
+Datafeed</Values>
+               <Selected>0</Selected>
+               <SelectType>0</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Manual Category</Name>
+               <Description en="Manual Category" ru="Category Blogger"/>
+               <SectionName en="General Setting" ru=""/>
+               <VisibilityConditionValue>Manual</VisibilityConditionValue>
+               <VisibilityConditionVariable>Category Source</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>File Source</Name>
+               <Description en="File Source" ru="File Source"/>
+               <SectionName en="Article Setting" ru=""/>
+               <VisibilityConditionValue>Auto</VisibilityConditionValue>
+               <VisibilityConditionVariable>Task</VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Keyword File
+Datafeed File</Values>
+               <Selected>0</Selected>
+               <SelectType>0</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>File Type</Name>
+               <Description en="File Type" ru="File Type"/>
+               <SectionName en="Article Setting" ru=""/>
+               <VisibilityConditionValue>Keyword File</VisibilityConditionValue>
+               <VisibilityConditionVariable>File Source</VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Line List
+Separated By Coma</Values>
+               <Selected>0</Selected>
+               <SelectType>0</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Datafeed File</Name>
+               <Description en="Datafeed File" ru="Datafeed File"/>
+               <SectionName en="Article Setting" ru=""/>
+               <VisibilityConditionValue>Datafeed</VisibilityConditionValue>
+               <VisibilityConditionVariable>File Source</VisibilityConditionVariable>
+               <Type>LinesFromFile</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>LinesFromFile</AllowedTypes>
+               <Filename></Filename>
+               <Clean>0</Clean>
+               <Read>1</Read>
+               <Mix>0</Mix>
+               <MaxSuccess>1</MaxSuccess>
+               <MaxFail>1</MaxFail>
+               <MaxSimultaneous>1</MaxSimultaneous>
+               <Interval>5000</Interval>
+               <ReloadInterval>0</ReloadInterval>
+               <RenewInterval>-1</RenewInterval>
+               <Greedy>0</Greedy>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Keyword List</Name>
+               <Description en="Keyword List/Title" ru="Keyword List"/>
+               <SectionName en="Article Setting" ru=""/>
+               <VisibilityConditionValue>Line List</VisibilityConditionValue>
+               <VisibilityConditionVariable>File Type</VisibilityConditionVariable>
+               <Type>LinesFromFile</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>LinesFromFile</AllowedTypes>
+               <Filename></Filename>
+               <Clean>0</Clean>
+               <Read>1</Read>
+               <Mix>0</Mix>
+               <MaxSuccess>1</MaxSuccess>
+               <MaxFail>1</MaxFail>
+               <MaxSimultaneous>1</MaxSimultaneous>
+               <Interval>5000</Interval>
+               <ReloadInterval>0</ReloadInterval>
+               <RenewInterval>-1</RenewInterval>
+               <Greedy>0</Greedy>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Keyword List 2</Name>
+               <Description en="Keyword Coma Separated" ru="Keyword List 2"/>
+               <SectionName en="Article Setting" ru=""/>
+               <VisibilityConditionValue>Separated By Coma</VisibilityConditionValue>
+               <VisibilityConditionVariable>File Type</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value>d:/mykeyword.txt</Value>
+               <NotEmpty>0</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Bahasa</Name>
+               <Description en="Language" ru="Bahasa"/>
+               <SectionName en="Article Setting" ru=""/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Indonesian
+English
+Arabic
+French
+Spanish
+Russian
+Japanese
+Chinese
+Melayu</Values>
+               <Selected>0</Selected>
+               <SelectType>0</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>SEO</Name>
+               <Description en="SEO" ru="SEO"/>
+               <SectionName en="Article Setting" ru=""/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable>Source</VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Include SEO Tag</Values>
+               <Selected></Selected>
+               <SelectType>2</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>External URL</Name>
+               <Description en="External URL" ru="External URL"/>
+               <SectionName en="Article Setting" ru=""/>
+               <VisibilityConditionValue>Include SEO Tag</VisibilityConditionValue>
+               <VisibilityConditionVariable>SEO</VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Insert External URL</Values>
+               <Selected>0</Selected>
+               <SelectType>2</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Exteded Keyword</Name>
+               <Description en="Extended Keyword" ru="Exteded Keyword"/>
+               <SectionName en="Article Setting" ru=""/>
+               <VisibilityConditionValue>Include SEO Tag</VisibilityConditionValue>
+               <VisibilityConditionVariable>SEO</VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>LSI Keyword
+NLP Keyword</Values>
+               <Selected>0</Selected>
+               <SelectType>0</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Include FAQ</Name>
+               <Description en="Include FAQ" ru="Include FAQ"/>
+               <SectionName en="Article Setting" ru=""/>
+               <VisibilityConditionValue>Include SEO Tag</VisibilityConditionValue>
+               <VisibilityConditionVariable>SEO</VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Insert FAQ</Values>
+               <Selected>0</Selected>
+               <SelectType>2</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>AutoTag</Name>
+               <Description en="AutoTag" ru="AutoTag"/>
+               <SectionName en="Article Setting" ru=""/>
+               <VisibilityConditionValue>Auto</VisibilityConditionValue>
+               <VisibilityConditionVariable>Task</VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>AutoTag</Values>
+               <Selected></Selected>
+               <SelectType>2</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Jumlah Kata</Name>
+               <Description en="Word Count" ru="Jumlah Kata"/>
+               <SectionName en="Article Setting" ru=""/>
+               <VisibilityConditionValue>Auto</VisibilityConditionValue>
+               <VisibilityConditionVariable>Task</VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>500
+1000
+1500
+2000</Values>
+               <Selected>0</Selected>
+               <SelectType>0</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Custom AI Prompt</Name>
+               <Description en="Custom AI Prompt" ru="Custom AI Prompt"/>
+               <SectionName en="Article Setting" ru=""/>
+               <VisibilityConditionValue>Auto</VisibilityConditionValue>
+               <VisibilityConditionVariable>Task</VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Custom AI Prompt</Values>
+               <Selected></Selected>
+               <SelectType>2</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Custom Title Prompt</Name>
+               <Description en="Custom Title Prompt" ru="Custom Title Prompt"/>
+               <SectionName en="Article Setting" ru=""/>
+               <VisibilityConditionValue>Custom AI Prompt</VisibilityConditionValue>
+               <VisibilityConditionVariable>Custom AI Prompt</VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Custom Title Prompt</Values>
+               <Selected></Selected>
+               <SelectType>2</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Custom Title Prompt File </Name>
+               <Description en="Custom Title Prompt File " ru="Custom Title Prompt File "/>
+               <SectionName en="Article Setting" ru=""/>
+               <VisibilityConditionValue>Custom Title Prompt</VisibilityConditionValue>
+               <VisibilityConditionVariable>Custom Title Prompt</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Custom Prompt</Name>
+               <Description en="Custom Prompt Article" ru="Custom Prompt"/>
+               <SectionName en="Article Setting" ru=""/>
+               <VisibilityConditionValue>Custom AI Prompt</VisibilityConditionValue>
+               <VisibilityConditionVariable>Custom AI Prompt</VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Custom Prompt</Values>
+               <Selected></Selected>
+               <SelectType>2</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Custom Prompt File  </Name>
+               <Description en="Custom Article Prompt File  (Txt File)" ru="Custom Prompt File  "/>
+               <SectionName en="Article Setting" ru=""/>
+               <VisibilityConditionValue>Custom Prompt</VisibilityConditionValue>
+               <VisibilityConditionVariable>Custom Prompt</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Custom Rewrite Prompt</Name>
+               <Description en="Custom Rewrite Prompt" ru="Custom Rewrite Prompt"/>
+               <SectionName en="Article Setting" ru=""/>
+               <VisibilityConditionValue>Custom AI Prompt</VisibilityConditionValue>
+               <VisibilityConditionVariable>Custom AI Prompt</VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Custom Rewrite Prompt</Values>
+               <Selected></Selected>
+               <SelectType>2</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Custom Rewrite File</Name>
+               <Description en="Custom Rewrite File" ru="Custom Rewrite File"/>
+               <SectionName en="Article Setting" ru=""/>
+               <VisibilityConditionValue>Custom</VisibilityConditionValue>
+               <VisibilityConditionVariable>Custom Rewrite Prompt</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Custom Meta Description Prompt</Name>
+               <Description en="Custom Meta Description Prompt" ru="Custom Meta Description Prompt"/>
+               <SectionName en="Article Setting" ru=""/>
+               <VisibilityConditionValue>Custom AI Prompt</VisibilityConditionValue>
+               <VisibilityConditionVariable>Custom AI Prompt</VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Custom Meta Description</Values>
+               <Selected></Selected>
+               <SelectType>2</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Custom Meta Description Prompt File</Name>
+               <Description en="Custom Meta Description Prompt File" ru="Custom Meta Description Prompt File"/>
+               <SectionName en="Article Setting" ru=""/>
+               <VisibilityConditionValue>Custom Meta Description</VisibilityConditionValue>
+               <VisibilityConditionVariable>Custom Meta Description Prompt</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>0</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Custom Article Template</Name>
+               <Description en="Custom Post Template" ru="Custom Article Template"/>
+               <SectionName en="Article Setting" ru=""/>
+               <VisibilityConditionValue>Auto</VisibilityConditionValue>
+               <VisibilityConditionVariable>Task</VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Custom</Values>
+               <Selected></Selected>
+               <SelectType>2</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Article Template</Name>
+               <Description en="Article Template (Txt File)" ru="Article Template"/>
+               <SectionName en="Article Setting" ru=""/>
+               <VisibilityConditionValue>Custom</VisibilityConditionValue>
+               <VisibilityConditionVariable>Custom Article Template</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>0</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Article Content Creation Timeout</Name>
+               <Description en="Article Content Creation Timeout" ru="Article Content Creation Timeout"/>
+               <SectionName en="Timeout Setting" ru=""/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>30000
+60000
+70000
+80000
+90000
+100000
+110000
+120000</Values>
+               <Selected>1</Selected>
+               <SelectType>0</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Short Content  Creation Timeout </Name>
+               <Description en="Short Content  Creation Timeout (ms)" ru="Loading Time Short Content (ms)"/>
+               <SectionName en="Timeout Setting" ru=""/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>10000
+20000
+30000
+40000
+50000
+60000</Values>
+               <Selected>1</Selected>
+               <SelectType>0</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Loading Website Timeout</Name>
+               <Description en="Loading Website Timeout" ru="Loading Website Timeout (ms)"/>
+               <SectionName en="Timeout Setting" ru=""/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>5000
+10000
+20000
+30000</Values>
+               <Selected>0</Selected>
+               <SelectType>0</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>ChatGPT Cookies Folder</Name>
+               <Description en="ChatGPT Cookies Folder" ru="ChatGPT Cookies Folder"/>
+               <SectionName en="Login" ru=""/>
+               <VisibilityConditionValue>ChatGPT</VisibilityConditionValue>
+               <VisibilityConditionVariable>Source</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>0</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Exblog Cookies File</Name>
+               <Description en="Exblog Cookies File" ru="Exblog Cookies File"/>
+               <SectionName en="Login" ru=""/>
+               <VisibilityConditionValue>ExBlog</VisibilityConditionValue>
+               <VisibilityConditionVariable>Task</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Blogger Cookies FIle</Name>
+               <Description en="Blogger Cookies FIle" ru="Blogger Cookies FIle"/>
+               <SectionName en="Login" ru=""/>
+               <VisibilityConditionValue>Blogger</VisibilityConditionValue>
+               <VisibilityConditionVariable>Task</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Bing Chat Cookie Folder</Name>
+               <Description en="Bing Chat Cookie Folder" ru="Bing Chat Cookie Folder"/>
+               <SectionName en="Login" ru=""/>
+               <VisibilityConditionValue>Bing Chat,Claude</VisibilityConditionValue>
+               <VisibilityConditionVariable>Source,Title and Meta Desc Source</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Kolom Datafeed</Name>
+               <Description en="Kolom Datafeed" ru="Kolom Datafeed"/>
+               <SectionName en="Datafeed Setting" ru=""/>
+               <VisibilityConditionValue>Datafeed</VisibilityConditionValue>
+               <VisibilityConditionVariable>File Source</VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>2 Kolom
+3 Kolom
+4 Kolom</Values>
+               <Selected>0</Selected>
+               <SelectType>0</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Wordpress URL</Name>
+               <Description en="Wordpress URL" ru="Wordpress URL"/>
+               <SectionName en="Wordpress Setting" ru=""/>
+               <VisibilityConditionValue>Wordpress</VisibilityConditionValue>
+               <VisibilityConditionVariable>Task</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>0</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Blogger Url</Name>
+               <Description en="Blogger Url" ru="Blogger Url"/>
+               <SectionName en="Blogger Setting" ru=""/>
+               <VisibilityConditionValue>Blogger</VisibilityConditionValue>
+               <VisibilityConditionVariable>Task</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Jangka Waktu</Name>
+               <Description en="Time Period In Hours" ru="Jangka Waktu"/>
+               <SectionName en="Blogger Setting" ru=""/>
+               <VisibilityConditionValue>Schedule</VisibilityConditionValue>
+               <VisibilityConditionVariable>Schedule Post</VisibilityConditionVariable>
+               <Type>FixedInteger</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedInteger</AllowedTypes>
+               <Value>4</Value>
+               <MinValue>1</MinValue>
+               <MaxValue>99999995</MaxValue>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Claude Cookie</Name>
+               <Description en="Claude Cookie Folder" ru="Claude Cookie"/>
+               <SectionName en="Login" ru=""/>
+               <VisibilityConditionValue>Claude</VisibilityConditionValue>
+               <VisibilityConditionVariable>Source</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Google Gemini</Name>
+               <Description en="Google Gemini" ru="Google Gemini"/>
+               <SectionName en="Login" ru=""/>
+               <VisibilityConditionValue>Gemini</VisibilityConditionValue>
+               <VisibilityConditionVariable>Source</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>ExBlog Schedule Post</Name>
+               <Description en="ExBlog Schedule Post" ru="ExBlog Schedule Post"/>
+               <SectionName en="Exblog Setting" ru=""/>
+               <VisibilityConditionValue>ExBlog</VisibilityConditionValue>
+               <VisibilityConditionVariable>Task</VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Schedule</Values>
+               <Selected></Selected>
+               <SelectType>2</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Category List</Name>
+               <Description en="Category List" ru="Category List"/>
+               <SectionName en="General Setting" ru=""/>
+               <VisibilityConditionValue>Automatic</VisibilityConditionValue>
+               <VisibilityConditionVariable>Category Source</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Keyword</Name>
+               <Description en="Keyword" ru="Keyword"/>
+               <SectionName en="General Setting" ru=""/>
+               <VisibilityConditionValue>Single</VisibilityConditionValue>
+               <VisibilityConditionVariable>Keyword  Generator List</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Perplexity Cookie Folder</Name>
+               <Description en="Perplexity Cookie Folder" ru="Perplexity Cookie Folder"/>
+               <SectionName en="Login" ru=""/>
+               <VisibilityConditionValue>Perplexity</VisibilityConditionValue>
+               <VisibilityConditionVariable>Source</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Time Period (Per Hours)</Name>
+               <Description en="Time Period (Per Hours)" ru="Time Period (Per Hours)"/>
+               <SectionName en="Exblog Setting" ru=""/>
+               <VisibilityConditionValue>Schedule</VisibilityConditionValue>
+               <VisibilityConditionVariable>ExBlog Schedule Post</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Username</Name>
+               <Description en="Username" ru="Username"/>
+               <SectionName en="Wordpress Setting" ru=""/>
+               <VisibilityConditionValue>Wordpress</VisibilityConditionValue>
+               <VisibilityConditionVariable>Task</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>0</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Password</Name>
+               <Description en="Password" ru="Password"/>
+               <SectionName en="Wordpress Setting" ru=""/>
+               <VisibilityConditionValue>Wordpress</VisibilityConditionValue>
+               <VisibilityConditionVariable>Task</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>0</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Kolom 1</Name>
+               <Description en="Kolom 1" ru="Kolom 1"/>
+               <SectionName en="Datafeed Setting" ru=""/>
+               <VisibilityConditionValue>2,3,4</VisibilityConditionValue>
+               <VisibilityConditionVariable>Kolom Datafeed</VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Keyword/Product Name
+Link
+Image
+Category</Values>
+               <Selected>0</Selected>
+               <SelectType>0</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Kolom 2</Name>
+               <Description en="Kolom 2" ru="Kolom 2"/>
+               <SectionName en="Datafeed Setting" ru=""/>
+               <VisibilityConditionValue>2,3,4</VisibilityConditionValue>
+               <VisibilityConditionVariable>Kolom Datafeed</VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Keyword/Product Name
+Link
+Image
+Category</Values>
+               <Selected>1</Selected>
+               <SelectType>0</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Kolom 3</Name>
+               <Description en="Kolom 3" ru="Kolom 3"/>
+               <SectionName en="Datafeed Setting" ru=""/>
+               <VisibilityConditionValue>3,4</VisibilityConditionValue>
+               <VisibilityConditionVariable>Kolom Datafeed</VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Keyword/Product Name
+Link
+Image
+Category</Values>
+               <Selected>2</Selected>
+               <SelectType>0</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Kolom 4</Name>
+               <Description en="Kolom 4" ru="Kolom 4"/>
+               <SectionName en="Datafeed Setting" ru=""/>
+               <VisibilityConditionValue>4</VisibilityConditionValue>
+               <VisibilityConditionVariable>Kolom Datafeed</VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Keyword/Product Name
+Link
+Image
+Category</Values>
+               <Selected>3</Selected>
+               <SelectType>0</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Wordpress Schedule Time</Name>
+               <Description en="Wordpress Schedule Time" ru="Wordpress Schedule Time"/>
+               <SectionName en="Wordpress Setting" ru=""/>
+               <VisibilityConditionValue>AutoBlog Wordpress</VisibilityConditionValue>
+               <VisibilityConditionVariable>Task</VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Schedule</Values>
+               <Selected></Selected>
+               <SelectType>2</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Wordpress Schedule Per Hours</Name>
+               <Description en="Wordpress Schedule Per Hours" ru="Wordpress Schedule Per Hours"/>
+               <SectionName en="Wordpress Setting" ru=""/>
+               <VisibilityConditionValue>Schedule</VisibilityConditionValue>
+               <VisibilityConditionVariable>Wordpress Schedule Time</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Number Of Keyword</Name>
+               <Description en="Number Of Keyword" ru="Number Of Keyword"/>
+               <SectionName en="General Setting" ru=""/>
+               <VisibilityConditionValue>Keyword</VisibilityConditionValue>
+               <VisibilityConditionVariable>Task</VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>5
+10
+20
+30
+50
+100</Values>
+               <Selected>0</Selected>
+               <SelectType>0</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Keyword Source</Name>
+               <Description en="Keyword Source" ru="Keyword Source"/>
+               <SectionName en="General Setting" ru=""/>
+               <VisibilityConditionValue>Keyword</VisibilityConditionValue>
+               <VisibilityConditionVariable>Task</VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>ChatGPT
+Gemini</Values>
+               <Selected>0</Selected>
+               <SelectType>0</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>ChatGPT  Login Folder Source</Name>
+               <Description en="ChatGPT  Login Folder Source" ru="ChatGPT  Login Folder Source"/>
+               <SectionName en="General Setting" ru=""/>
+               <VisibilityConditionValue>ChatGPT</VisibilityConditionValue>
+               <VisibilityConditionVariable>Keyword Source</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Gemini Login Folder Source</Name>
+               <Description en="Gemini Login Folder Source" ru="Gemini Login Folder Source"/>
+               <SectionName en="General Setting" ru=""/>
+               <VisibilityConditionValue>Gemini</VisibilityConditionValue>
+               <VisibilityConditionVariable>Keyword Source</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Random Keyword Result</Name>
+               <Description en="Random Keyword Result" ru="Random Keyword Result"/>
+               <SectionName en="General Setting" ru=""/>
+               <VisibilityConditionValue>Multiple</VisibilityConditionValue>
+               <VisibilityConditionVariable>Keyword  Generator List</VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Random</Values>
+               <Selected></Selected>
+               <SelectType>2</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Save Keyword FIle As</Name>
+               <Description en="Save Keyword FIle As" ru="Save Keyword FIle As"/>
+               <SectionName en="General Setting" ru=""/>
+               <VisibilityConditionValue>Keyword</VisibilityConditionValue>
+               <VisibilityConditionVariable>Task</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value>c:/keywordfile.txt</Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Publish Now</Name>
+               <Description en="Publish Now" ru="Publish Now"/>
+               <SectionName en="Blogger Setting" ru=""/>
+               <VisibilityConditionValue>Blogger</VisibilityConditionValue>
+               <VisibilityConditionVariable>Task</VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>0</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Publish Now
+Draft</Values>
+               <Selected>0</Selected>
+               <SelectType>0</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Image Folder</Name>
+               <Description en="Image Folder" ru="Image Folder"/>
+               <SectionName en="Exblog Setting" ru=""/>
+               <VisibilityConditionValue>exblog</VisibilityConditionValue>
+               <VisibilityConditionVariable>Task</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Social Media Website</Name>
+               <Description en="Social Media Website" ru="Social Media Website"/>
+               <SectionName en="Social Media Setting" ru=""/>
+               <VisibilityConditionValue>Publish Now</VisibilityConditionValue>
+               <VisibilityConditionVariable>Schedule Post</VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>x.com
+Facebook.com
+Pinterest.com
+Mastodon.social
+Tumblr.com
+Threads.net
+Patreon.com
+Minds.com
+Cohost.org
+Substack.com
+Flipboard.com
+Plurk.com
+Pearltrees.com
+Flickr</Values>
+               <Selected></Selected>
+               <SelectType>2</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Facebook Cookies Folder</Name>
+               <Description en="Facebook Cookie Folder" ru="Facebook Cookies Folder"/>
+               <SectionName en="Social Media Setting" ru=""/>
+               <VisibilityConditionValue>Facebook</VisibilityConditionValue>
+               <VisibilityConditionVariable>Social Media Website</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Twitter Cookies Folder</Name>
+               <Description en="X.com Cookies Folder" ru="Twitter Cookies Folder"/>
+               <SectionName en="Social Media Setting" ru=""/>
+               <VisibilityConditionValue>x.com</VisibilityConditionValue>
+               <VisibilityConditionVariable>Social Media Website</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Tumblr Cookie Folder</Name>
+               <Description en="Tumblr Cookie Folder" ru="Tumblr Cookie Folder"/>
+               <SectionName en="Social Media Setting" ru=""/>
+               <VisibilityConditionValue>Tumblr</VisibilityConditionValue>
+               <VisibilityConditionVariable>Social Media Website</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Mastodon Cookie Folder</Name>
+               <Description en="Mastodon Cookie Folder" ru="Mastodon Cookie Folder"/>
+               <SectionName en="Social Media Setting" ru=""/>
+               <VisibilityConditionValue>Mastodon.social</VisibilityConditionValue>
+               <VisibilityConditionVariable>Social Media Website</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Threads Cookie Folder</Name>
+               <Description en="Threads Cookie Folder" ru="Threads Cookie Folder"/>
+               <SectionName en="Social Media Setting" ru=""/>
+               <VisibilityConditionValue>Threads.net</VisibilityConditionValue>
+               <VisibilityConditionVariable>Social Media Website</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Patreon Cookie Folder</Name>
+               <Description en="Patreon Cookie Folder" ru="Patreon Cookie Folder"/>
+               <SectionName en="Social Media Setting" ru=""/>
+               <VisibilityConditionValue>Patreon.com</VisibilityConditionValue>
+               <VisibilityConditionVariable>Social Media Website</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Minds Cookie Folder</Name>
+               <Description en="Minds Cookie Folder" ru="Minds Cookie Folder"/>
+               <SectionName en="Social Media Setting" ru=""/>
+               <VisibilityConditionValue>Minds</VisibilityConditionValue>
+               <VisibilityConditionVariable>Social Media Website</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Pinterest Cookie Folder</Name>
+               <Description en="Pinterest Cookie Folder" ru="Pinterest Cookie Folder"/>
+               <SectionName en="Social Media Setting" ru=""/>
+               <VisibilityConditionValue>Pinterest</VisibilityConditionValue>
+               <VisibilityConditionVariable>Social Media Website</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value>d:/pinterestcookiefolder/</Value>
+               <NotEmpty>0</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Pinterest Board</Name>
+               <Description en="Pinterest Board" ru="Pinterest Board"/>
+               <SectionName en="Social Media Setting" ru=""/>
+               <VisibilityConditionValue>Pinterest</VisibilityConditionValue>
+               <VisibilityConditionVariable>Social Media Website</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>0</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Mistral Cookie Folder</Name>
+               <Description en="Mistral Cookie Folder" ru="Mistral Cookie Folder"/>
+               <SectionName en="Login" ru=""/>
+               <VisibilityConditionValue>Mistral</VisibilityConditionValue>
+               <VisibilityConditionVariable>Source</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Save Fail Keyword</Name>
+               <Description en="Save Fail Keyword" ru="Save Fail Keyword"/>
+               <SectionName en="General Setting" ru=""/>
+               <VisibilityConditionValue>Auto</VisibilityConditionValue>
+               <VisibilityConditionVariable>Task</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Save Success Link</Name>
+               <Description en="Save Success Link" ru="Save Success Link"/>
+               <SectionName en="General Setting" ru=""/>
+               <VisibilityConditionValue>Auto</VisibilityConditionValue>
+               <VisibilityConditionVariable>Task</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Substack Cookies Folder</Name>
+               <Description en="Substack Cookies Folder" ru="Substack Cookies Folder"/>
+               <SectionName en="Social Media Setting" ru=""/>
+               <VisibilityConditionValue>Substack.com</VisibilityConditionValue>
+               <VisibilityConditionVariable>Social Media Website</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Cohost Cookies Folder</Name>
+               <Description en="Cohost Cookies Folder" ru="Cohost Cookies Folder"/>
+               <SectionName en="Social Media Setting" ru=""/>
+               <VisibilityConditionValue>Cohost.org</VisibilityConditionValue>
+               <VisibilityConditionVariable>Social Media Website</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>List Submit Url</Name>
+               <Description en="List Submit Url" ru="List Submit Url"/>
+               <SectionName en="General Setting" ru=""/>
+               <VisibilityConditionValue>Social Media</VisibilityConditionValue>
+               <VisibilityConditionVariable>Task</VisibilityConditionVariable>
+               <Type>LinesFromFile</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>LinesFromFile</AllowedTypes>
+               <Filename></Filename>
+               <Clean>0</Clean>
+               <Read>1</Read>
+               <Mix>0</Mix>
+               <MaxSuccess>1</MaxSuccess>
+               <MaxFail>1</MaxFail>
+               <MaxSimultaneous>1</MaxSimultaneous>
+               <Interval>5000</Interval>
+               <ReloadInterval>0</ReloadInterval>
+               <RenewInterval>-1</RenewInterval>
+               <Greedy>0</Greedy>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Flipboard Cookies Folder</Name>
+               <Description en="Flipboard Cookies Folder" ru="Flipboard Cookies Folder"/>
+               <SectionName en="Social Media Setting" ru=""/>
+               <VisibilityConditionValue>Flipboard</VisibilityConditionValue>
+               <VisibilityConditionVariable>Social Media Website</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Flickr Cookies Folder</Name>
+               <Description en="Flickr Cookies Folder" ru="Flickr Cookies Folder"/>
+               <SectionName en="Social Media Setting" ru=""/>
+               <VisibilityConditionValue>Flickr</VisibilityConditionValue>
+               <VisibilityConditionVariable>Social Media Website</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Pearltrees Cookies Folder</Name>
+               <Description en="Pearltrees Cookies Folder" ru="Pearltrees Cookies Folder"/>
+               <SectionName en="Social Media Setting" ru=""/>
+               <VisibilityConditionValue>Pearltrees.com</VisibilityConditionValue>
+               <VisibilityConditionVariable>Social Media Website</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Plurk Cookies Folder</Name>
+               <Description en="Plurk Cookies Folder" ru="Plurk Cookies Folder"/>
+               <SectionName en="Social Media Setting" ru=""/>
+               <VisibilityConditionValue>Plurk</VisibilityConditionValue>
+               <VisibilityConditionVariable>Social Media Website</VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+     </ModelList>
+</BrowserAutomationStudioProject>

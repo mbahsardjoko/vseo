@@ -1,0 +1,16 @@
+[
+{
+    "domain": ".cohost.org",
+    "expirationDate": 1719269999.563418,
+    "hostOnly": false,
+    "httpOnly": true,
+    "name": "connect.sid",
+    "path": "/",
+    "sameSite": "lax",
+    "secure": true,
+    "session": false,
+    "storeId": "0",
+    "value": "s%3A-xAL3fjr1UQxwnOpMicXeQdQ3YDDCcJT.8lws1ucXucgLUyIhn%2B8YDl%2BQiPY8pNIw9%2FP0AY8qRXE",
+    "id": 1
+}
+]

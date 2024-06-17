@@ -1,0 +1,20 @@
+hanya perlu menggunakan akun AI gratisan
+tidak perlu berlangganan akun AI
+tidak perlu menggunakan API
+bisa menggunakan openai
+bisa menggunakan gemini
+bisa menggunakan claude
+bisa menggunakan perplexity
+bisa menggunakan double source 
+bisa schedule post perplexity to chatgpt
+bisa schedule post perplexity to gemini
+bisa schedule post bingchat to chatgpt
+bisa schedule post bingchat to gemini
+hasil artikel sudah terdapat gambar
+artikel sudah terformat heading h1, h2, h3
+bisa post ke WP
+bisa post ke blogspot
+bisa post ke exblog
+otomatis post ke twitter/x
+otomatis post ke pinterest
+menggunakan bing AI image creator 

@@ -1,0 +1,29 @@
+[
+{
+    "domain": "mastodon.social",
+    "hostOnly": true,
+    "httpOnly": true,
+    "name": "_mastodon_session",
+    "path": "/",
+    "sameSite": "lax",
+    "secure": true,
+    "session": true,
+    "storeId": "0",
+    "value": "G9XjDIoSQANnVUhTdOCn2snSXE0RN05T0nyPYDSgfEh0Z2MADaLleu%2BG3EgvtUSxaP7L91ScNGhz1lzsk%2FpBosLsBVAR0O%2BSowJX74qLf9A1ivh50cgDUIjVNpH44RlwsXCZh4dqFYJGLTsQn0mlhgn4032df2jj4uq1DIPZOyVGabWxDGYOpqyG0e1fKXiI53HuZrByGJmyJq6K%2Fjrnq2DciskVtBAOzsYP%2BrORjN3sccgq85RyFHkjnogPG%2F0heJENxLkKw%2BGyykGDN2AjdWmfkTAYNw1kxRnXm6bd4W7fbayfwtb0DQ1NrjVQuJbczR2oIhdx60nFm6cT3LXj%2Fr5MQTE3%2B%2BQz4nY%2FGpTcEJeVppmh%2FySgcMdrb%2BnuS1Wc7S2VwWAWbAlRgoGG3PZj8wD%2FCQ20n9yoNi9OjzVQr%2FzOJH%2B5S5jORdLws3WUkmFrg%2Bf67xIAw8AFhYRgrzV55L4Cmu5G9%2B9EVOyjGAj2FKGxuw9S3W0OgqKUrkcfoMn01c6FCCBlANdcPFTEhqKMQhnWALvoTmsls1UQhjokAl61THF0Aemx1TaUXouGhZ4BfOg7syJGtfbD9FKv0mXk6UiQgdFPUtwdrRA41w1Wjhnhi%2F3c%2FrjstLefCP%2F1JBijSQmY79uE%2BcfVxI%2FF02Rmx5fJzS4oq9spQZWoxxPBEFrILE8n%2FhWdjvwCZTSSIzPXAhEi19CQe1B6LMql5DuBLz8YUG32UnXNRIgTmLLi4BABHXR5ujCEqZMM7eFa%2FPoFvnXyQ%2FWQ81HdkIgdEMv6KDioktTbjyREgNlIcNshAoQ%2B--rfeQxVa3wWH3VY%2Fj--Kw24ZMH80V5bXrE4LgkHxQ%3D%3D",
+    "id": 1
+},
+{
+    "domain": "mastodon.social",
+    "expirationDate": 1733962859.397367,
+    "hostOnly": true,
+    "httpOnly": true,
+    "name": "_session_id",
+    "path": "/",
+    "sameSite": "lax",
+    "secure": true,
+    "session": false,
+    "storeId": "0",
+    "value": "eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqQTFOekJsTVRrME9UYzVZbVZpWlRReVltVmxaR0V6WkdFd1l6RmlOVGcxSWc9PSIsImV4cCI6IjIwMjUtMDYtMTVUMDA6MjI6MjguMjU3WiIsInB1ciI6ImNvb2tpZS5fc2Vzc2lvbl9pZCJ9fQ%3D%3D--380b79ff66d4beaa3149467565b61488008921f4",
+    "id": 2
+}
+]

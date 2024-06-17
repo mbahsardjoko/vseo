@@ -1,0 +1,71 @@
+[
+{
+    "domain": ".plurk.com",
+    "expirationDate": 1719806326.104114,
+    "hostOnly": false,
+    "httpOnly": true,
+    "name": "plurkcookiea",
+    "path": "/",
+    "sameSite": "lax",
+    "secure": true,
+    "session": false,
+    "storeId": "0",
+    "value": "\"w8Tasx255spTT4uo+Su/lTCoRMNpbBT0MbB3oH0f4To=?acts=MTcxODU5Njc1Nw==&chkN=Ingi&lang=ImVuIg==&tid=NDkzMzk1MjA=&user_id=MTQ4NDMwNTE=\"",
+    "id": 1
+},
+{
+    "domain": ".plurk.com",
+    "expirationDate": 1722484668.166596,
+    "hostOnly": false,
+    "httpOnly": true,
+    "name": "plurktokena",
+    "path": "/",
+    "sameSite": "lax",
+    "secure": true,
+    "session": false,
+    "storeId": "0",
+    "value": "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsInZlciI6MX0.eyJzdWIiOiIxNDg0MzA1MSIsImp0aSI6IjQ5MzM5NTIwIiwiaWF0IjoxNzE4NTk2NzU3LCJleHAiOjE3MjI0ODQ3NTcsInN0bCI6ZmFsc2V9.YfJ4oSRKXWVeE4W3LS8B1ZZ3ASSI9tFD2XbhNVo0Xdwim0Yq0tZ9xnh9K9ciDCD0QF-eWTkSIh37lGblUfLcYA",
+    "id": 2
+},
+{
+    "domain": "www.plurk.com",
+    "hostOnly": true,
+    "httpOnly": false,
+    "name": "anno_status",
+    "path": "/",
+    "sameSite": "lax",
+    "secure": true,
+    "session": true,
+    "storeId": "0",
+    "value": "{}",
+    "id": 3
+},
+{
+    "domain": "www.plurk.com",
+    "expirationDate": 1719201469.426582,
+    "hostOnly": true,
+    "httpOnly": false,
+    "name": "default_qual",
+    "path": "/",
+    "sameSite": "lax",
+    "secure": true,
+    "session": false,
+    "storeId": "0",
+    "value": "freestyle",
+    "id": 4
+},
+{
+    "domain": "www.plurk.com",
+    "expirationDate": 1719201469.373952,
+    "hostOnly": true,
+    "httpOnly": false,
+    "name": "default_qual_mini",
+    "path": "/",
+    "sameSite": "lax",
+    "secure": true,
+    "session": false,
+    "storeId": "0",
+    "value": "freestyle",
+    "id": 5
+}
+]
